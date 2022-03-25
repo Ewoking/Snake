@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <script src="./utilities.js"></script>
+        <title>Document</title>
+    </head>
+    <body>
+        <div style="font-family: Rye; visibility: hidden" >.</div>
+        <h1>SNAKE</h1>
+        <div class="main">
+            <div class="game">
+                <canvas
+                    class="canvas-game"
+                    width="800px"
+                    height="600px"
+                ></canvas>
+                <div class="score">
+                    <p>SCORE : 0</p>
+                </div>
+                <button class="btn play-btn">JOUER</button>
+                <button class="btn replay-btn invisible">REJOUER</button>
+            </div>
+            <div class="score-board">
+                <h3>BEST SCORE</h3>
+                <p>0</p>
+                <h3>LAST SCORES</h3>
+                <ul></ul>
+            </div>
+        </div>
+
+        <script src="./game.js"></script>
+    </body>
+</html>

@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rye&display=swap");
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #a52a30;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    margin-left: 18rem;
+}
+
+.game {
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    font-size: 10rem;
+    color: rgb(255, 187, 0);
+}
+
+canvas {
+    margin-top: 1rem;
+}
+
+.btn {
+    display: block;
+    position: absolute;
+    left: 50%;
+    padding: 1rem 2rem;
+    border: none;
+    bottom: 20%;
+    font-size: 2rem;
+    cursor: pointer;
+    transform: translateX(-50%);
+    background-color: #a52a30;
+    color: rgb(255, 187, 0);
+    padding-top: 1.3rem;
+    font-family: "Teko", sans-serif;
+    border-radius: 0.7rem;
+}
+
+.play-btn {
+    bottom: 50%;
+    transform: translate(-50%, 50%);
+    font-size: 4rem;
+    padding: 2rem 5rem;
+}
+
+.invisible {
+    display: none;
+}
+
+.score {
+    width: 100%;
+    margin: 0 auto;
+    text-align: end;
+    color: #cafaea;
+    font-family: "Teko", sans-serif;
+    font-size: 2rem;
+}
+
+.score p {
+    margin-right: 2rem;
+}
+
+.score-board {
+    display: inline-block;
+    vertical-align: top;
+    font-family: sans-serif;
+    padding-left: 1rem;
+    width: 18rem;
+    text-align: center;
+    color: rgb(202, 250, 234);
+    font-family: "Teko", sans-serif;
+}
+
+.score-board h3 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.score-board p {
+    font-size: 4rem;
+}
+
+.score-board ul {
+    list-style: none;
+    padding: 0;
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 1400px) {
+
+    h1 {
+        font-size: 5rem;
+    }
+
+    .main {
+        flex-direction: column;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .game {
+        width: min-content;
+        margin: 0 auto;
+    }
+
+    .score-board {
+        margin: auto;
+    }
+}
