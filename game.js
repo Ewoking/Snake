@@ -338,7 +338,3 @@ playButton.addEventListener("click", ()=> {
     timer = setInterval(gameLoop,100);
     playButton.classList.add("invisible")
 })
-
-
-
-
