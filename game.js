@@ -28,6 +28,13 @@ if(window.matchMedia("(max-width: 800px)").matches){
     tileSize = 24;
     snakeRadius = 4;
 }
+
+if(window.matchMedia("(max-width: 500px)").matches){
+    canvas.width = 240;
+    canvas.height = 180;
+    tileSize = 12;
+    snakeRadius = 2;
+}
 ctx.fillStyle = colors.background;
 ctx.fillRect(0,0,canvas.width,canvas.height);
 

@@ -118,3 +118,44 @@ canvas {
         margin: auto;
     }
 }
+
+@media screen and (max-width: 500px) {
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    .main {
+        flex-direction: column;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .game {
+        width: min-content;
+        margin: 0 auto;
+    }
+
+    .score p {
+        font-size: 1.8rem;
+        margin: 0;
+    }
+
+    .score-board {
+        margin: auto;
+    }
+
+    .score-board h3 {
+        font-size: 1.5rem;
+        margin: 0;
+    }
+
+    .score-board p {
+        font-size: 1rem;
+    }
+
+    .play-btn {
+        font-size: 1rem;
+        padding: 1rem 2rem;
+    }
+}
